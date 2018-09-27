@@ -10,6 +10,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+
 	//
 	"time"
 	// GITHUB
@@ -65,14 +66,14 @@ func AWS_Decrypt(aws_env_var string) (string, error) {
 	return decrypted, nil
 }
 
-func containsEmpty(ss ...string) bool {
-	for _, s := range ss {
-		if s == "" {
-			return true
-		}
-	}
-	return false
-}
+// func containsEmpty(ss ...string) bool {
+// 	for _, s := range ss {
+// 		if s == "" {
+// 			return true
+// 		}
+// 	}
+// 	return false
+// }
 
 type Request struct {
 	Databasenames string `json:"databasename"`
