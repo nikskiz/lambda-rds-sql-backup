@@ -9,8 +9,7 @@
 ### How do I get set up? ###
 1. Install from source
 ```bash
-git config --global url."git@bitbucket.org:".insteadOf "https://bitbucket.org/"
-go get bitbucket.org/energyonelimited/sage-db-backup
+go get github.com/nikskiz/lambda-rds-sql-backup
 ```
 2. Create lambda function with the following
     * Permissions
